@@ -1,12 +1,14 @@
 #################################################################################################################
-#Code to convert number of clicks to wind speed									#	
-#Technique used here is simple 											#			
-#Speed = Distance / time											#
-#now here distance is Pie * r (where r is the radius i.e. from center of anemometer to the center of cup)	#
-#In this anemometer, one click is caused when one cup of anemometer cover half the circumference, so when	#
-#that click happen, we measure time taken 									#
-#and divide the pie * r / time taken 										#	
-#now when you use this code, please change .25 to the radius and that too in meter. 				#
+#Author : Shailendra Singh 
+#email-id : srj0408@gamil.com
+#Code to convert number of clicks to wind speed								                                    #	
+#Technique used here is simple 											                                        #			
+#Speed = Distance / time											                                            #
+#now here distance is Pie * r (where r is the radius i.e. from center of anemometer to the center of cup)	    #
+#In this anemometer, one click is caused when one cup of anemometer cover half the circumference, so when	    #
+#that click happen, we measure time taken 									                                    #
+#and divide the pie * r / time taken 										                                    #	
+#now when you use this code, please change .25 to the radius and that too in meter. 				            #
 ################################################################################################################
 
 import time
