@@ -1,3 +1,16 @@
+# Converting this to a RPI based Weather Station Project and using Thingsworks IoT device cloud ( option 1 ) or Yuktix Device cloud ( option 2). 
+
+1. Anemometer is alreay done. As it is using interrupt, there is no point adding any other code in the same code. Rather, use that as a module and get the readings after every "x" minutes. 
+
+2. Use T/RH sensor available in market. There can be many of them i.e. 
+	1. SHT15
+	2. DHT11 or SHT22 
+	Above bothe sensors work on I2C, so we have to use RPI I2C library. There are many sample code available 
+	3. Rainfall would again be a interrupt based device. No need to add that at present. 
+	
+3. Once you have data, you can probably use some of available prediction algorithms and plug it to a dashboard - This would be interesting to do. 
+
+
 # This code contain two important parts
 
 1. Getting data from a Anemometer with two wires on a RPI using interrupt (RPI.GPIO).
